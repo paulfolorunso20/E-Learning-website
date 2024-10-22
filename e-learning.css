@@ -1,0 +1,46 @@
+  /*hero section */
+
+  .hero{
+    background-image: linear-gradient(45deg, rgba(10, 9, 9, 0.7),
+    rgba(3, 3, 3, 0.725)),
+    url('assets/study-group-african-people.jpg');
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 150px;
+
+  } 
+
+  .hero-text{
+    font-size: 3rem;
+    text-decoration: red underline;
+  }
+
+  .our-solutions,
+  .our-products{
+    background-color: #f5f0ee;
+  }
+  
+  .our-products{
+    background-color: rgb(224, 222, 222);
+    padding: 100px 0;
+  }
+
+  @media (max-width: 991px) {
+    #image-container {
+      order: 2;
+    }
+  
+    #text-container {
+      order: 1;
+    }
+
+  button{
+    margin-bottom: 20px;
+  }
+
+  }
+
+
